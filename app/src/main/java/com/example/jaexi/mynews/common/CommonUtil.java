@@ -5,9 +5,9 @@ package com.example.jaexi.mynews.common;
  */
 public class CommonUtil {
     /** 联网的 ip */
-    public static String NETIP = "192.168.2.134";
+    public static String NETIP = "118.244.212.82";
     /** 联网的路径 */
-    public static String NETPATH = "http://" + NETIP + ":8080/newsClient";
+    public static String NETPATH = "http://" + NETIP + ":9092/newsClient";
     /** SharedPreferences保存用户名键 */
     public static final String SHARE_USER_NAME = "fang";
     /** SharedPreferences保存用户名密码 */

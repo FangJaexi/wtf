@@ -102,7 +102,7 @@ public class ActivityMain extends MyBaseActivity {
 
             @Override
             public void run() {
-                String path = "http://192.168.2.134:8080/newsClient/news_list?ver=1&subid=1&dir=1&nid=1&stamp=20140321&cnt=20";
+                String path = "http://118.244.212.82:9092/newsClient/news_list?ver=1&subid=1&dir=1&nid=1&stamp=20140321&cnt=20";
                 try {
                     newsParser = new ParserNews(ActivityMain.this);
                     // 发送请求，得到返回数据
